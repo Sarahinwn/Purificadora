@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { RenewpasswordComponent } from './renewpassword/renewpassword.component';
-
+import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -12,8 +14,16 @@ import { RenewpasswordComponent } from './renewpassword/renewpassword.component'
     RegisterComponent,
     RenewpasswordComponent
   ],
+  exports: [
+    LoginComponent,
+    RegisterComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ]
 })
 export class AuthModule { }

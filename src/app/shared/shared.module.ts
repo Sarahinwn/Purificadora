@@ -11,15 +11,15 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     CommonModule,
     RouterModule,
   ],
-  declarations: [
-    FooterComponent,
-    NavbarComponent,
-    SidebarComponent
-  ],
   exports: [
     FooterComponent,
     NavbarComponent,
     SidebarComponent
-  ]
+  ],
+  declarations: [
+    FooterComponent,
+    NavbarComponent,
+    SidebarComponent
+  ] 
 })
 export class SharedModule { }
