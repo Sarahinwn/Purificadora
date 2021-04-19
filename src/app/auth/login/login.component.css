@@ -1,8 +1,8 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 .row {
     background: white;
@@ -15,7 +15,7 @@
     outline: none;
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: #7E57C2;
     color: white;
     border-radius: 4px;
     font-weight: bold;
@@ -24,13 +24,9 @@
 .btn1:hover {
     background: white;
     border: 1px solid;
-    color: black;
+    color: #7E57C2;
 }
 
 .container-fluid {
-    justify-content: center;
-}
-
-.a {
     justify-content: center;
 }
