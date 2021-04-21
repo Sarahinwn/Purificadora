@@ -14,7 +14,8 @@ import { PagesComponent } from './pages.component';
   declarations: [
     DashboardComponent,
     InventarioComponent,
-    VentasComponent
+    VentasComponent,
+    PagesComponent
   ],
  /*  exports: [
     DashboardComponent,
