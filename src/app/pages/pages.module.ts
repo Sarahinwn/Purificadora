@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PagesComponent } from './pages.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { PagesComponent } from './pages.component';
     DashboardComponent,
     InventarioComponent,
     VentasComponent,
-    PagesComponent
+    PagesComponent,
+    UsuariosComponent
   ],
   imports: [
     CommonModule,
