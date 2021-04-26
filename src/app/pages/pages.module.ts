@@ -9,7 +9,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PagesComponent } from './pages.component';
 
 
-
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -17,10 +16,6 @@ import { PagesComponent } from './pages.component';
     VentasComponent,
     PagesComponent
   ],
- /*  exports: [
-    DashboardComponent,
-    PagesComponent
-  ], */
   imports: [
     CommonModule,
     SharedModule,
