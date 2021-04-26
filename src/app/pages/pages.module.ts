@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InventarioComponent } from './inventario/inventario.component';
@@ -11,6 +11,9 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 @NgModule({
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
   declarations: [
     DashboardComponent,
     InventarioComponent,
